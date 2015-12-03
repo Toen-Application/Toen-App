@@ -1,0 +1,33 @@
+when (tosc.toen -- cmd) {
+    print("--Console:" +cmd+);
+    }
+when (tosk.toen -- invalid) {
+    print("--Console:" +inv+);
+    }
+when (tosk.toen -- noaccount) {
+    print("--Console: Account" +noacc+ "doesn't exist");
+    }
+
+..| Cinnamon |..
+if (tosc.cinnamon -- true) {
+    int.cinnamon(+cinnamon+);
+    int.cinnamon("Directories");
+    int.cinnamon(+parent+);
+    out.cinnamon(Logging);
+    when (cinnamon -- recieve) {
+        unpk.cinnamon(true);
+        unpk.cinnamon(deps);
+        unpk.cinnamon(useracc);
+        }
+    }
+
+..| Assembly Line |..
+print("--Console:" +noscrpt+);
+
+..| Directories |..
+when (tosk.cinnamon -- (nft)) {
+    add.cinnamon("scripts.cni");
+    if (tosk.cinnamon -- (cni) {
+        rem (tosk.cinnamon -- (nft).debug(true));
+      }
+    }

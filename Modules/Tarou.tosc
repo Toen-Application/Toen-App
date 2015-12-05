@@ -1,0 +1,31 @@
+..| MODULE_NAME_TAROU |..
+
+when(tosc.cmd == inttarou) {
+    print(taroudebug);
+    }
+
+cinnamon.install(tarou) {
+    grab(file.modify) {
+        addModule(tosc);
+    }
+    pull(tarou) {
+        when (tarou == true) {
+            enableModule(tarou);
+        }
+        when (tarou == false} {
+            disableModule(tarou);
+        }
+    }
+    push(tarou) {
+        offline: function (cinnamon, tarou, toen) {
+            if cinnamon == false;
+            if cinnamon == true {
+                makeLab(cinnamon);
+            }
+            tarou.add(cinnamon_devel);
+        }
+        online: function (tarou) {
+            tarou.print(online '?');
+        }
+    }
+}
